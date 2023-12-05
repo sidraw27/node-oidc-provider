@@ -1,6 +1,6 @@
 {
-  "name": "oidc-provider",
-  "version": "7.14.3",
+  "name": "@viewsonic-mvb/oidc-provider",
+  "version": "7.15.0",
   "description": "OAuth 2.0 Authorization Server implementation for Node.js with OpenID Connect",
   "keywords": [
     "appauth",
@@ -37,8 +37,11 @@
     "provider",
     "server"
   ],
-  "homepage": "https://github.com/panva/node-oidc-provider",
-  "repository": "panva/node-oidc-provider",
+  "homepage": "https://github.com/sidraw27/node-oidc-provider",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panva/node-oidc-provider.git"
+  },
   "funding": {
     "url": "https://github.com/sponsors/panva"
   },
@@ -103,6 +106,15 @@
     "timekeeper": "^2.2.0"
   },
   "engines": {
-    "node": "12 || 14 || 16 || 18"
+    "node": ">=18"
+  },
+  "bugs": {
+    "url": "https://github.com/panva/node-oidc-provider/issues"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
   }
 }
